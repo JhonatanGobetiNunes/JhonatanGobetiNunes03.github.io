@@ -1,0 +1,207 @@
+body{background-color:rgb(134, 49, 53);}
+#fone{color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 4%;
+    font-size: 20px;
+    margin: auto;}
+#whatsapp{ color: rgb(255, 255, 255);}
+#whatsapprodape{color: rgb(134, 49, 53);}
+#subititulo1{color: rgb(255, 255, 255);
+text-align: center;
+padding-top: 4%;
+font-size: 50px;
+margin: auto;}
+#img1{padding-left: 18%;
+    padding-right: 0%;
+    padding-top: 3%;}
+img{max-width: 100%;}
+#img2{padding-left: 18%;
+    padding-right: 0%;
+    padding-top: 3%;}
+#img3{padding-left: 18%;
+    padding-right: 0%;
+    padding-top: 3%;}
+#img4{padding-left: 18%;
+    padding-right: 0%;
+    padding-top: 3%;}
+#img5{padding-left: 18%;
+    padding-right: 0%;
+    padding-top: 3%;}
+#img6{padding-left: 18%;
+    padding-right: 0%;
+    padding-top: 3%;}
+#img7{padding-left: 18%;
+    padding-right: 0%;
+    padding-top: 3%;}
+#img8{padding-left: 18%;
+    padding-right: 0%;
+    padding-top: 3%;}
+#img9{padding-left: 18%;
+    padding-right: 0%;
+    padding-top: 3%;}
+#subtitulo1{color: rgb(255, 255, 255);
+    text-align: center;
+padding-top: 4%;
+font-size: 50px;
+margin: auto;}
+#subititulo2{color: rgb(255, 255, 255);
+    text-align: center;
+padding-top: 4%;
+font-size: 50px;
+margin: auto;}
+#sobrenos{color: rgb(255, 255, 255);
+    text-align: center;
+padding-top: 4%;
+font-size: 50px;
+margin: auto;}
+#t1{color: rgb(255, 255, 255);
+    text-align: center;
+padding-top: 4%;
+font-size: 30px;
+margin: 5%;
+border:3px solid;
+border-color:  rgb(255, 255, 255);
+border-radius: 5px;
+padding: 3%;
+margin: 10%;}
+#contatos{color: rgb(255, 255, 255);
+    text-align: center;
+padding-top: 4%;
+font-size: 50px;
+margin: auto;}
+#contato1{padding-left: 15%;
+padding-top: 3%;
+padding-right: 15%;}
+#contatosdiv{padding: 2%;}
+#rodape{background-color:rgb(255, 255, 255);
+margin: 0%;
+padding: 1%;
+width: 98%;
+height: 50%;}
+/*css para ajustar o iconi whatsapp*/
+#icone-whatsapp{ position: fixed;
+bottom: 15Px;
+right: 15px;
+z-index: 999;}
+#pagamento{color: rgb(134, 49, 53);
+text-align: center;
+font-size: 30px}
+#t2{color: rgb(134, 49, 53);
+    padding-top:  0px;
+    text-align: center;
+    font-size: 20px}
+#t3{color: rgb(134, 49, 53);
+    padding-top: 4%;
+    text-align: center;
+    font-size: 20px}
+#t4{color: rgb(134, 49, 53);
+    padding-top: 3%;
+    text-align: center;
+    font-size: 30px}
+#menu{margin: 0px;
+padding: 0px;
+background-color: rgb(255, 255, 255);
+position: fixed;}
+#check{display: none;}
+#iconi{Cursor: pointer;
+padding: 15px;
+position: fixed;
+z-indeX: 1;}
+.barra{background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    position: fixed;
+    transition: all .2% linear;
+   left: -300px;}
+#nav{width: 100%;
+position: absolute;
+padding-top: 90px;
+list-style: none;}
+.nave a{text-decoration: none;}
+.link{background-color: rgb(255, 255, 255);
+padding: 20px;
+font-family: "Arial";
+font-size: 15px;
+transition: all .2% linear;
+color:rgb(110, 18, 22);
+border-bottom:3px solid rgb(110, 18, 22);
+opacity: 1;}
+.link:hover {background-color:rgb(122, 47, 51);}
+#check:checked ~ .barra{transform: translateX(300px);}
+#check:checked ~ .barra nav a .link{opacity: 1;
+margin-top: 0;}
+
+
+@media all and (max-width: 768px)
+{
+     #logo{ width:100% !important; }
+#t1{width: 90%;
+    font-size: 20px;
+    padding-left: 0%;
+margin: 8px;}
+#subititulo1{font-size: 25px;
+    text-align: center;}
+#subititulo2{text-align: center;
+    font-size: 25px;}
+#sobrenos{text-align: center;
+    font-size: 25px;}
+#contatos{text-align: center;
+    font-size: 25px;
+padding-bottom: 5%;}
+#rodape{margin: 0%;
+padding: 0%;
+width: 100%;
+height: 100%;}
+#pagamento{font-size: 40px;
+    text-align: center;
+padding-top: 10%;}
+#t2{font-size: 20px;
+margin: 2%;}
+#t3{font-size: 20px;
+margin: 10%;}
+#t4{font-size: 40px;
+padding-left: 2%;
+padding-right: 2%;}
+#img1{width: 290px; height: 200px;
+padding: 0%;
+margin: 12%;}
+#img2{width: 290px; height: 200px;
+    padding: 0%;
+    margin: 12%;}
+#img3{width: 290px; height: 200px;
+    padding: 0%;
+    margin: 12%;}
+#img4{width: 290px; height: 200px;
+    padding: 0%;
+    margin: 12%;}
+#img5{width: 290px; height: 200px;
+    padding: 0%;
+    margin: 12%;}
+#img6{width: 290px; height: 200px;
+    padding: 0%;
+    margin: 12%;}
+#img7{width: 290px; height: 200px;
+    padding: 0%;
+    margin: 12%;}
+#img8{width: 290px; height: 200px;
+    padding: 0%;
+    margin: 12%;}
+#img9{width: 290px; height: 200px;
+    padding: 0%;
+    margin: 12%;}
+#contato1{width: 330px; height:230px;
+    padding-top: 5%;
+    padding: 0%;
+    margin: 4%;}
+#icone-whatsapp{height:55px;
+                width: 55px;}
+.barra{ width: 200px;
+    left: -200px;}
+ #check:checked ~ .barra{transform: translateX(200px);}
+ .link{font-size: 15px;}
+ #iconimenu{height:30px;
+        width: 30px;}
+
+
+}
